@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+
+  productservice:
+    build: ./ProductService
+    ports:
+      - "5001:5001"
+    networks:
+      - micro_net
+
+  customerservice:
+    build: ./CustomerService
+    ports:
+      - "5002:5002"
+    networks:
+      - micro_net
+
+  orderservice:
+    build: ./OrderService
+    ports:
+      - "5003:5003"
+    networks:
+      - micro_net
+
+  gateway:
+    build: ./Gateway
+    ports:
+      - "5000:5000"
+    depends_on:
+      - productservice
+      - customerservice
+      - orderservice
+    networks:
+      - micro_net
+
+networks:
+  micro_net:
+    driver: bridge

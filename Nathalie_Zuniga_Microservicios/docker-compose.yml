@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  productservice:
+    build:
+      context: ./ProductService
+      dockerfile: Dockerfile
+    container_name: productservice
+    ports:
+      - "5001:8080"
+
+  customerservice:
+    build:
+      context: ./CustomerService
+      dockerfile: Dockerfile
+    container_name: customerservice
+    ports:
+      - "5002:8080"
+
+  orderservice:
+    build:
+      context: ./OrderService
+      dockerfile: Dockerfile
+    container_name: orderservice
+    ports:
+      - "5003:8080"
+
+  gateway:
+    build:
+      context: ./Gateway
+      dockerfile: Dockerfile
+    container_name: gateway
+    ports:
+      - "5000:8080"
+    depends_on:
+      - productservice
+      - customerservice
+      - orderservice

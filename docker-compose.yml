@@ -1,0 +1,35 @@
+services:
+    productservice:
+      build: ./ProductService
+      ports:
+        - "5101:80"
+      networks:
+        - egradnet
+
+    orderservice:
+      build: ./OrderService
+      ports:
+        - "5102:80"
+      networks:
+        - egradnet
+    
+    customerservice:
+      build: ./CustomerService
+      ports:
+        - "5103:80"
+      networks:
+        - egradnet
+
+    gateway:
+     build: ./Gateway
+     ports:
+      - "8090:80"
+     depends_on:
+      - productservice
+      - orderservice
+      - customerservice
+     networks:
+        - egradnet
+networks:
+  egradnet:
+    driver: bridge

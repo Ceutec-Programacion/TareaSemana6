@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Hb7zviQA88=",
+  "success": true,
+  "projectFilePath": "/Users/german/Documents/NetProjects/German_Barrera_MicroServicios/Gateway/Gateway.csproj",
+  "expectedPackageFiles": [
+    "/Users/german/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/Users/german/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512",
+    "/Users/german/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/german/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/german/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.22/microsoft.netcore.app.host.osx-x64.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

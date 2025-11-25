@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "PC5Zsq5L29Y=",
+  "success": true,
+  "projectFilePath": "/Users/oscarguifarro/Desktop/MicroserviciosProyecto/Gateway/Gateway.csproj",
+  "expectedPackageFiles": [
+    "/Users/oscarguifarro/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.13/microsoft.netcore.app.host.osx-arm64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

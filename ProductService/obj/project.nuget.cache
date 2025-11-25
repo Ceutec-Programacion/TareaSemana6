@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "fhQHyh6kvW8=",
+  "success": true,
+  "projectFilePath": "/Users/oscarguifarro/Desktop/MicroserviciosProyecto/ProductService/ProductService.csproj",
+  "expectedPackageFiles": [
+    "/Users/oscarguifarro/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/oscarguifarro/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.13/microsoft.netcore.app.host.osx-arm64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

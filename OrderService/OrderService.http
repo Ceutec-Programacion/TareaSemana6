@@ -1,0 +1,9 @@
+@host = http://localhost:5003
+
+### Get all orders
+GET {{host}}/orders
+Accept: application/json
+
+### Get order by id
+GET {{host}}/orders/1
+Accept: application/json

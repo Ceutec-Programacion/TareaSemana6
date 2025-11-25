@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nu0EbxVgpMI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Latitude 7290\\source\\repos\\AngieZuniga_Microservicios\\Gateway\\Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Latitude 7290\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512",
+    "C:\\Users\\Latitude 7290\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\Latitude 7290\\.nuget\\packages\\yarp.reverseproxy\\2.1.0\\yarp.reverseproxy.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
